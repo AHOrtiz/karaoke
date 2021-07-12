@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="karaoke.Vistas.Introduccion" BackgroundColor="#423F3E">
+    <ContentPage.Content>
+        <StackLayout  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Image  x:Name="imgLogo"    Source="images.png" HeightRequest="150" HorizontalOptions="CenterAndExpand"
+                   WidthRequest="150"
+                   ></Image>
+            <Label TextColor="Gray" Text="From" HorizontalOptions="CenterAndExpand"></Label>
+            <Label Text="Xamarin" TextColor="White" FontSize="18" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
